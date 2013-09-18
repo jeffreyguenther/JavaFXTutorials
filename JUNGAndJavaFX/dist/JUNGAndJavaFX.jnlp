@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="JUNGAndJavaFX.jnlp">
+  <information>
+    <title>JUNGAndJavaFX</title>
+    <vendor>jeffreyguenther</vendor>
+    <description>Sample JavaFX 2.0 application.</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <jfx:javafx-runtime version="2.2+" href="http://javadl.sun.com/webapps/download/GetFile/javafx-latest/windows-i586/javafx2.jnlp"/>
+  </resources>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="JUNGAndJavaFX.jar" size="20185" download="eager" />
+    <jar href="lib/collections-generic-4.01.jar" size="531557" download="eager" />
+    <jar href="lib/colt-1.2.0.jar" size="581945" download="eager" />
+    <jar href="lib/j3d-core-1.3.1.jar" size="2513498" download="eager" />
+    <jar href="lib/jung-3d-2.0.1.jar" size="73271" download="eager" />
+    <jar href="lib/jung-3d-demos-2.0.1.jar" size="3966" download="eager" />
+    <jar href="lib/jung-algorithms-2.0.1.jar" size="233113" download="eager" />
+    <jar href="lib/jung-api-2.0.1.jar" size="40975" download="eager" />
+    <jar href="lib/jung-graph-impl-2.0.1.jar" size="62329" download="eager" />
+    <jar href="lib/jung-io-2.0.1.jar" size="79372" download="eager" />
+    <jar href="lib/jung-jai-2.0.1.jar" size="20440" download="eager" />
+    <jar href="lib/jung-jai-samples-2.0.1.jar" size="46790" download="eager" />
+    <jar href="lib/jung-samples-2.0.1.jar" size="811841" download="eager" />
+    <jar href="lib/jung-visualization-2.0.1.jar" size="324398" download="eager" />
+    <jar href="lib/stax-api-1.0.1.jar" size="26514" download="eager" />
+    <jar href="lib/vecmath-1.3.1.jar" size="289881" download="eager" />
+    <jar href="lib/wstx-asl-3.2.6.jar" size="520389" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="JUNGAndJavaFX" >
+    <param name="requiredFXVersion" value="2.2+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="jungandjavafx.JUNGAndJavaFX"  name="JUNGAndJavaFX" />
+  <update check="always"/>
+</jnlp>

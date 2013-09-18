@@ -1,6 +1,8 @@
 *.class
 
 # Package Files #
+.DS_Store
 *.jar
 *.war
 *.ear
+Videos
